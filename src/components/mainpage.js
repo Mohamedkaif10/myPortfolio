@@ -4,6 +4,7 @@ import Kaifpic from "../Images/MD_KAIF.jpeg"
 import workingcodepic from "../Images/wwc.jpeg"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 const Mainpage=()=>{
 
 
@@ -29,6 +30,15 @@ const Mainpage=()=>{
           </div>
           <div className={classes.i}>
                  <img src={Kaifpic} className={classes.image} alt="Pic of me wearing E-cell Hoodie"></img>
+          </div>
+          <div className={classes.icons}>
+            <a href="https://instagram.com/md_kkaiff_10?igshid=NTc4MTIwNjQ2YQ==">  <InstagramIcon fontSize="large"/></a>
+          </div>
+          <div className={classes.iconlinkedin}>
+          <a href="https://www.linkedin.com/in/mohamed-kaif-182636259"><LinkedInIcon fontSize="large"/></a>
+          </div>
+          <div className={classes.githubicon}>
+          <a href="https://github.com/Mohamedkaif10"><GitHubIcon fontSize="large"/></a>
           </div>
           <div className={classes.About}>
                  <p>ABOUT ME</p>
@@ -65,8 +75,6 @@ const Mainpage=()=>{
           </div>
           <footer className={classes.CM}>
                <p>REACH ME</p>
-              <InstagramIcon/>
-              <LinkedInIcon/>
               <p>If you're interested in collaborating on exciting web development projects or have any inquiries, please feel free to reach out to me via email at <a href = "mailto:kaif@react.com?subject=Collaboration%20Inquiry%20">
 kaif@react.com
 </a> or connect with me on  <a href ="https://www.linkedin.com/in/mohamed-kaif-182636259">LinkedIn</a>. I look forward to exploring new opportunities and contributing to the world of React and web development</p>
