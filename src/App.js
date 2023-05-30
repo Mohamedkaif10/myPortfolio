@@ -4,10 +4,10 @@ import './App.css';
 import { Fragment } from 'react';
 function App() {
     useEffect(() => {
-      document.title = 'My Page Title';
+      document.title = 'Kaif app';
     }, []);
  
-  const TITLE = 'My Page Title'
+  const TITLE = 'Kaif app'
   return (
    <Fragment>
     <title>{ TITLE }</title>
