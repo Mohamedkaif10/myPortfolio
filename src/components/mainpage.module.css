@@ -34,7 +34,7 @@ background: #143F6B;
   color:white;
 }
 .container{
-  font-family: 'League Spartan Thin';
+  font-family: 'League Spartan';
   border-radius: 20px;
     /* border-style:dotted; */
     width:800px;
@@ -65,7 +65,7 @@ background: #143F6B;
     /* width: 200px;
     height: 150px; */
 }
-.RM{
+/* .RM{
     color:aqua;
     align-items: center;
     background-color: #fff;
@@ -94,13 +94,13 @@ background: #143F6B;
   .RM a:hover,
   .RM a.active {
     color: red;
-  }
+  } */
 
-.para{
+/* .para{
     position: relative;
     font-size: 20px;
     top:45px;
-}
+} */
 .About{
   color:black;
   top:-5px;
@@ -168,7 +168,7 @@ background: #143F6B;
   padding: 0px 10px;
   display: flex;
   justify-content: center;
-  border-top: 3px solid #455EFC;
+  border-top: 6px solid #455EFC;
   position: relative;
   transition: all 200ms ease-in;
 }
@@ -181,10 +181,10 @@ background: #143F6B;
   height: 12px;
   background-color: #455EFC;
   border-radius: 12px;
-  border: 2px solid #455EFC;
+  border: 6px solid #455EFC;
   position: absolute;
   left: 50%;
-  top: 0%;
+  top: -5%;
   /* -webkit-transform: translate(-50%, -50%); */
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
