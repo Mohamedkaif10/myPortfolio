@@ -1,5 +1,4 @@
-import {useEffect} from "react"
-import Mainpage from './components/mainpage';
+import {useEffect} from "react";
 import './App.css';
 import { Fragment } from 'react';
 function App() {
@@ -11,7 +10,6 @@ function App() {
   return (
    <Fragment>
     <title>{ TITLE }</title>
-    <Mainpage/>
    </Fragment>
   );
 }
