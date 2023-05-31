@@ -1,0 +1,32 @@
+@font-face {
+    font-family: league-spartan;
+    src: url('https://www.1001fonts.com/league-spartan-font.html?size=-8');
+    font-weight: bold;
+  }
+.headerImage{
+    height:3cm;
+    background-image:url('.././Images/Header.png');
+}
+.Content{
+   height: 683px;
+   background-image: url('.././Images/content.png');
+}
+.about{
+    border-style: dotted;
+    height:683px;
+    background-image: url('.././Images/reedited.png');
+    background-repeat: no-repeat;
+   
+}
+.Eduimage{
+    border-style: dotted;
+    height: 683px;
+    background-image: url("../Images/EDUCATION.png");
+}
+.Footerimage{
+    height:4cm;
+    background-image:url('.././Images/Header.png');
+}
+.font{
+    font-style:league-spartan;
+}
