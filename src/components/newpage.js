@@ -12,14 +12,8 @@ function Frontpage(){
          </div>
          <div className={classes.Eduimage}>
          </div>
-         <div className={classes.Footerimage}>
-         </div>
-         <div className={classes.font}>
-            <p>hfiaufhpauh</p>
-         </div>
-         <div>
-            dfahiu
-         </div>
+         <footer className={classes.Footerimage}>
+         </footer>
         </Fragment>
     )
 }

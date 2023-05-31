@@ -12,15 +12,12 @@
    background-image: url('.././Images/content.png');
 }
 .about{
-    border-style: dotted;
     height:683px;
     background-image: url('.././Images/reedited.png');
     background-repeat: no-repeat;
-   
 }
 .Eduimage{
-    border-style: dotted;
-    height: 683px;
+    height: 750px;
     background-image: url("../Images/EDUCATION.png");
 }
 .Footerimage{

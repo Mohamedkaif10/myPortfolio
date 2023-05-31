@@ -1,5 +1,6 @@
 import {useEffect} from "react";
 import './App.css';
+import Frontpage from "./components/newpage";
 import { Fragment } from 'react';
 function App() {
     useEffect(() => {
@@ -10,6 +11,7 @@ function App() {
   return (
    <Fragment>
     <title>{ TITLE }</title>
+    <Frontpage/>
    </Fragment>
   );
 }
