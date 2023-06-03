@@ -1,8 +1,11 @@
 .Headingbox{
   border-style: dashed;
- position: inherit;
-height:130px;
+ position: fixed;
+height:90px;
 background: #143F6B;
+width:100%;
+padding-top: 20px;
+z-index: 9;
 }
 .details{
   /* border-style: dashed; */
@@ -14,25 +17,29 @@ background: #143F6B;
   bottom:0px;
   color:white;
 }
-.contact{
-  position: relative;
-  /* border-style: dotted; */
-  width: 200px;
-  bottom:4cm;
-  left:33cm;
-  /* top:-25px; */
-  font-size: 35px;
-  color:white;;
-}
 .Edu{
   /* border-style: dotted; */
   width:150px;
   font-size: 35px;
-  bottom:2.03cm;
-  left:28cm;
-  position: relative;
+  /* bottom:0.03cm; */
+  left:28.75cm;
+  position: fixed;
   color:white;
+ top:1px;
+ padding-top: 20px;
 }
+.contact{
+  position: fixed;
+  /* border-style: dotted; */
+  width: 200px;
+  /* bottom:3cm; */
+  left:33.5cm;
+  top:1px;
+  font-size: 35px;
+  color:white;;
+  padding-top: 20px;
+}
+
 .container{
   font-family: 'League Spartan';
   border-radius: 20px;
@@ -104,7 +111,8 @@ background: #143F6B;
 .About{
   color:black;
   top:-5px;
-  border-style: dotted;
+  border-style: solid;
+  border-width: thick;
   border-color: #000000;
   top:19cm;
   position:relative;
@@ -113,11 +121,15 @@ background: #143F6B;
   padding-left: 20px;
 }
 .Abtcontainer{
-  border-style:dashed;
+  height:10cm;
   width:1000px;
   position: inherit;
-  left:30px;
+  left:20px;
   font-size: 25px;
+  background-color: #E893CF;
+  border-radius: 10px;
+  width:29cm;
+  padding:10px 7px 2px 7px;
 }
 .abtimage{
   position: relative;
@@ -137,12 +149,14 @@ background: #143F6B;
   height:15cm;
   font-size: 40px;
   padding-left: 20px;
+  border-style: solid;
+  border-width: thick;
   }
 .timelline {
   height: 100px; 
   padding: 100px 0;
-  width: 100%;
-  background-color: #ffffff;
+  width: 92%;
+  background-color: #F3BCC8;
   position: relative;
   top:50px;
   left:1px
@@ -224,27 +238,35 @@ background: #143F6B;
   top:22cm;
   font-size: 30px;
   padding-left: 20px;  
+  border-style: solid;
+  border-width: thick;
+  background-color: #9376E0;
 }
 .CM a{
  text-decoration:none;
- color:#35916b;
+ color:#FFFFFF;
 }
 .icons{
   float: right;
   position: relative;
-  top:11cm;
-  right:10cm;
+  top:14cm;
+  right:9cm;
+  text-decoration:none;
+
 }
 .iconlinkedin{
   float: right;
   position: relative;
-  top:11cm;
-  right:6cm;
-  height: max-content
+  top:14cm;
+  right:5cm;
+  height: max-content;
+  text-decoration:none;
+  color:#000000
 }
 .githubicon{
   float: right;
   position: relative;
-  top:11cm;
-  right:6.6cm;
+  top:14cm;
+  right:5.5cm;
+  text-decoration:none;
 }
