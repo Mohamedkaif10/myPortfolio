@@ -5,20 +5,26 @@ import workingcodepic from "../Images/wwc.jpeg"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from 'react-scroll';
+import Button from "../Assets/Button";
 const Mainpage=()=>{
-
-
       return(
         <Fragment>
               <header className={classes.Headingbox}>
                      <div className={classes.details}>
-                     <p>About</p>
+                     <Link to="About" spy={true} smooth={true} offset={-115} duration={500}>
+                     <Button>About</Button>
+                     </Link>
                      </div>
                      <div className={classes.Edu}>
-                      <p>Education</p>
+                     <Link to="Education" spy={true} smooth={true} offset={-110} duration={500}>
+                     <Button>Education</Button>
+                     </Link>
                      </div>
                      <div className={classes.contact}>
-                     <p>Contact Me</p>
+                     <Link to="Reach" spy={true} smooth={true} offset={50} duration={500}>
+                     <Button>Contact</Button>
+                     </Link>
                      </div>
               </header>
           <div className={classes.container}>
@@ -39,7 +45,7 @@ const Mainpage=()=>{
           <div className={classes.githubicon}>
           <a href="https://github.com/Mohamedkaif10"><GitHubIcon fontSize="large"/></a>
           </div>
-          <div className={classes.About}>
+          <div className={classes.About} name="About">
                  <p>ABOUT ME</p>
                  <div className={classes.Abtcontainer}>
                      <p>Hello, I'm Mohamed Kaif.D, an undergraduate studying Industrial Chemistry at IIT Hyderabad. Alongside my academic pursuits, I am passionate about web development, specifically in React.</p>
@@ -51,7 +57,7 @@ const Mainpage=()=>{
 
                  </div>
           </div>
-          <div className={classes.contactme}>
+          <div className={classes.contactme} name="Education">
                 <p>EDUCATION</p>
           <section className={classes.timelline}>
             <div className={classes.swipercontainer}> 
@@ -72,7 +78,7 @@ const Mainpage=()=>{
                </div>
        </section>
           </div>
-          <footer className={classes.CM}>
+          <footer className={classes.CM} name="Reach">
                <p>REACH ME</p>
               <p>If you're interested in collaborating on exciting web development projects or have any inquiries, please feel free to reach out to me via  <a href = "mailto:mkaif7736@google.com?subject=Collaboration%20Inquiry%20">
  E-mail
