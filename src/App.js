@@ -1,19 +1,21 @@
-import {useEffect} from "react"
-import Mainpage from './components/mainpage';
-import './App.css';
-import { Fragment } from 'react';
+import {createBrowserRouter,RouterProvider} from 'react-router-dom';
+import About from './pages/About';
+import HomePage from './pages/Homepage';
+// import ProductsPage from './pages/Products';
+import RootLayout from './pages/Root.js';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index:true, element: <HomePage /> },
+      {path:"/about",element:<About></About>}
+    ]
+  }
+]);
 function App() {
-    useEffect(() => {
-      document.title = 'Kaif app';
-    }, []);
- 
-  const TITLE = 'Kaif app'
-  return (
-   <Fragment>
-    <title>{ TITLE }</title>
-    <Mainpage/>
-   </Fragment>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

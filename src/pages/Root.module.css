@@ -1,0 +1,42 @@
+.content {
+    margin: 2rem auto;
+    text-align: center;
+  }
+.Footer{
+    border-style: dashed;
+    position: relative;
+    top:40px;
+    display: flex;
+    gap: 3rem;
+    height:30rem;
+    padding-left: 30px;
+    padding-top: 30px;
+
+       }
+.Footer  a{
+        text-decoration: none;
+        color:black;
+        }
+.Logo{
+    
+    border-style: dotted;
+    height: 60%;
+    width:20%;
+}  
+.CU{
+    border-style: dashed;
+    height:70%;
+    width:30%;
+    position: relative;
+    left:18cm
+}  
+.links{
+    border-style: dashed;
+    width:5cm;
+    height:5cm;
+    position: relative;
+    right:7cm;
+}  
+.llinks{
+    border-style: dashed;
+}  

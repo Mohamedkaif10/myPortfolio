@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from 'react-scroll';
-import Button from "../Assets/Button";
+import Button from "../assets/Button";
 const Mainpage=()=>{
       return(
         <Fragment>
